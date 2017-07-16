@@ -9,6 +9,11 @@ import parking.vehicle.Vehicle;
  *
  */
 public class Parker {
+    private String name;
+
+    public Parker(String name) {
+        this.name = name;
+    }
 
     public void park(Vehicle vehicle){
         if(vehicle instanceof MotorCycle){
